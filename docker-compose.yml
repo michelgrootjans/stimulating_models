@@ -3,4 +3,4 @@
     volumes:
     - .:/models
     working_dir: /models
-    command: ruby program.rb 
+    command: exec "bundle install && ruby program.rb"
