@@ -1,0 +1,6 @@
+  ruby:
+    image: ruby
+    volumes:
+    - .:/models
+    working_dir: /models
+    command: ruby program.rb 
